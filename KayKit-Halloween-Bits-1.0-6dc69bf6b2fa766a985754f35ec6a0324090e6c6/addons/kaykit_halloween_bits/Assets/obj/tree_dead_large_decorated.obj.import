@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cjase5u1ul3ge"
+path="res://.godot/imported/tree_dead_large_decorated.obj-7d8511d6a709a958ff8fe3f763b355cb.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tree_dead_large_decorated.obj-7d8511d6a709a958ff8fe3f763b355cb.mesh"]
+
+source_file="res://KayKit-Halloween-Bits-1.0-6dc69bf6b2fa766a985754f35ec6a0324090e6c6/addons/kaykit_halloween_bits/Assets/obj/tree_dead_large_decorated.obj"
+dest_files=["res://.godot/imported/tree_dead_large_decorated.obj-7d8511d6a709a958ff8fe3f763b355cb.mesh", "res://.godot/imported/tree_dead_large_decorated.obj-7d8511d6a709a958ff8fe3f763b355cb.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

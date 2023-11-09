@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dr0cy627c2gvc"
+path="res://.godot/imported/gravemarker_A.obj-1c7fb6f6ca5fbbd910082a3d563f1e55.mesh"
+
+[deps]
+
+files=["res://.godot/imported/gravemarker_A.obj-1c7fb6f6ca5fbbd910082a3d563f1e55.mesh"]
+
+source_file="res://KayKit-Halloween-Bits-1.0-6dc69bf6b2fa766a985754f35ec6a0324090e6c6/addons/kaykit_halloween_bits/Assets/obj/gravemarker_A.obj"
+dest_files=["res://.godot/imported/gravemarker_A.obj-1c7fb6f6ca5fbbd910082a3d563f1e55.mesh", "res://.godot/imported/gravemarker_A.obj-1c7fb6f6ca5fbbd910082a3d563f1e55.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

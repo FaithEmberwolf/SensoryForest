@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b446txlgao0p6"
+path="res://.godot/imported/wall_doorway_door.obj-a01ea5e58a454ae3cf663da3170a5681.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wall_doorway_door.obj-a01ea5e58a454ae3cf663da3170a5681.mesh"]
+
+source_file="res://KayKit-Dungeon-Remastered-1.0-b0ca9bd96a8072ab36a3a5464f00ed1e06a16d07/addons/kaykit_dungeon_remastered/Assets/obj/wall_doorway_door.obj"
+dest_files=["res://.godot/imported/wall_doorway_door.obj-a01ea5e58a454ae3cf663da3170a5681.mesh", "res://.godot/imported/wall_doorway_door.obj-a01ea5e58a454ae3cf663da3170a5681.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
