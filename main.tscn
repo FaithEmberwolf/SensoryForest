@@ -1,8 +1,17 @@
-[gd_scene load_steps=4 format=3 uid="uid://b5vvxlu38rkd5"]
+[gd_scene load_steps=7 format=3 uid="uid://b5vvxlu38rkd5"]
 
 [ext_resource type="ArrayMesh" uid="uid://d4e5glxxp2nu4" path="res://KayKit-Halloween-Bits-1.0-6dc69bf6b2fa766a985754f35ec6a0324090e6c6/addons/kaykit_halloween_bits/Assets/obj/arch_gate.obj" id="1_o2ww1"]
 [ext_resource type="ArrayMesh" uid="uid://fgv3jt3i55j2" path="res://KayKit-Halloween-Bits-1.0-6dc69bf6b2fa766a985754f35ec6a0324090e6c6/addons/kaykit_halloween_bits/Assets/obj/tree_pine_yellow_large.obj" id="2_bl5af"]
 [ext_resource type="ArrayMesh" uid="uid://brbg502w8oy5n" path="res://KayKit-Halloween-Bits-1.0-6dc69bf6b2fa766a985754f35ec6a0324090e6c6/addons/kaykit_halloween_bits/Assets/obj/tree_pine_yellow_medium.obj" id="3_vawnb"]
+
+[sub_resource type="Sky" id="Sky_ybdvp"]
+
+[sub_resource type="Environment" id="Environment_p6i67"]
+background_mode = 2
+background_energy_multiplier = 0.8
+sky = SubResource("Sky_ybdvp")
+
+[sub_resource type="CameraAttributesPhysical" id="CameraAttributesPhysical_qweer"]
 
 [node name="Main" type="Node3D"]
 
@@ -17,3 +26,7 @@ mesh = ExtResource("2_bl5af")
 [node name="TreePineYellowMedium" type="MeshInstance3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.62179, 0, -5.63702)
 mesh = ExtResource("3_vawnb")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_p6i67")
+camera_attributes = SubResource("CameraAttributesPhysical_qweer")
